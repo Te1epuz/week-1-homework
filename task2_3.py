@@ -19,7 +19,6 @@ for class_nmb in scores_list:
         school_score_count += 1
     class_score_average = class_score_summ / class_score_count 
     print(class_nmb['school_class']+': '+str(class_score_average))
-    #print(f'{class_nmb['school_class']}: {class_score_average}') Не понимаю, почему не работает
-
+    
 school_score_average = school_score_summ / school_score_count
 print(f'School average: {school_score_average}')
